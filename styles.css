@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    overflow: hidden; /* Évite les barres de défilement */
+    background: linear-gradient(45deg, #ff6b6b, #f7c2c2, #6bff6b, #c2f7c2);
+    background-size: 400% 400%; /* Taille du dégradé */
+    animation: gradient 10s ease infinite; /* Animation */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.titre {
+    margin: 0;
+    line-height: 1.2;
+    text-align: center;
+    font-family: cursive;    
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
